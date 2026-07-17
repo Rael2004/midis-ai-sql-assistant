@@ -1,22 +1,28 @@
+using MidisSqlAi.Api.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+// Register controller support.
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+
+// Register our database health service with dependency injection.
+// When a controller requests IDatabaseHealthService,
+// ASP.NET Core creates a DatabaseHealthService.
+builder.Services.AddScoped<
+    IDatabaseHealthService,
+    DatabaseHealthService>();
+
+// Generate the OpenAPI description during development.
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
 
 app.UseHttpsRedirection();
-
-app.UseAuthorization();
 
 app.MapControllers();
 
