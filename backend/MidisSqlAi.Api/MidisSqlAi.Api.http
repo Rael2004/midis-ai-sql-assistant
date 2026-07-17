@@ -1,0 +1,6 @@
+@MidisSqlAi.Api_HostAddress = http://localhost:5111
+
+GET {{MidisSqlAi.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gf4LvOEHA2k=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\raele\\OneDrive\\Documents\\Midis_ICT_Internship\\midis-ai-sql-assistant\\backend\\MidisSqlAi.Api\\MidisSqlAi.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\raele\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.10\\microsoft.aspnetcore.openapi.10.0.10.nupkg.sha512",
+    "C:\\Users\\raele\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}
