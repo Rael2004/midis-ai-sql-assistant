@@ -66,6 +66,10 @@
               "target": "Package",
               "version": "[2.7.5, )"
             },
+            "Microsoft.SqlServer.TransactSql.ScriptDom": {
+              "target": "Package",
+              "version": "[180.37.3, )"
+            },
             "OpenAI": {
               "target": "Package",
               "version": "[2.12.0, )"

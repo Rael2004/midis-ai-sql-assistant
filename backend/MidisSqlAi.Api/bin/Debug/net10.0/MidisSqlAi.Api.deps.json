@@ -12,6 +12,7 @@
           "Microsoft.AspNetCore.OpenApi": "10.0.10",
           "Microsoft.Data.SqlClient": "7.0.2",
           "Microsoft.OpenApi": "2.7.5",
+          "Microsoft.SqlServer.TransactSql.ScriptDom": "180.37.3",
           "OpenAI": "2.12.0"
         },
         "runtime": {
@@ -285,6 +286,55 @@
           }
         }
       },
+      "Microsoft.SqlServer.TransactSql.ScriptDom/180.37.3": {
+        "runtime": {
+          "lib/net8.0/Microsoft.SqlServer.TransactSql.ScriptDom.dll": {
+            "assemblyVersion": "18.0.0.0",
+            "fileVersion": "18.0.37.3"
+          }
+        },
+        "resources": {
+          "lib/net8.0/cs/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "OpenAI/2.12.0": {
         "dependencies": {
           "System.ClientModel": "1.14.0"
@@ -486,6 +536,13 @@
       "sha512": "sha512-N4KeF3cpcm1PUHym1RmakkzfkEv3GRMyofVv40uXsQhCQeglr2OHNcUk2WOG51AKpGO8ynGpo9M/kFXSzghwug==",
       "path": "microsoft.sqlserver.server/1.0.0",
       "hashPath": "microsoft.sqlserver.server.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.SqlServer.TransactSql.ScriptDom/180.37.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mVJb9XiE+BktZjeKlVJKjaSmBFHlCANJy+eDc+AjbMNPxUSWmpXs6tiqG37/s0OEUNcqVRUyc8K6MAMFgyzrrA==",
+      "path": "microsoft.sqlserver.transactsql.scriptdom/180.37.3",
+      "hashPath": "microsoft.sqlserver.transactsql.scriptdom.180.37.3.nupkg.sha512"
     },
     "OpenAI/2.12.0": {
       "type": "package",

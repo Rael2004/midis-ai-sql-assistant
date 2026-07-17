@@ -366,6 +366,60 @@
           }
         }
       },
+      "Microsoft.SqlServer.TransactSql.ScriptDom/180.37.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.SqlServer.TransactSql.ScriptDom.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.SqlServer.TransactSql.ScriptDom.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0/cs/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "OpenAI/2.12.0": {
         "type": "package",
         "dependencies": {
@@ -968,6 +1022,83 @@
         "microsoft.sqlserver.server.nuspec"
       ]
     },
+    "Microsoft.SqlServer.TransactSql.ScriptDom/180.37.3": {
+      "sha512": "mVJb9XiE+BktZjeKlVJKjaSmBFHlCANJy+eDc+AjbMNPxUSWmpXs6tiqG37/s0OEUNcqVRUyc8K6MAMFgyzrrA==",
+      "type": "package",
+      "path": "microsoft.sqlserver.transactsql.scriptdom/180.37.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net472/Microsoft.SqlServer.TransactSql.ScriptDom.dll",
+        "lib/net472/Microsoft.SqlServer.TransactSql.ScriptDom.pdb",
+        "lib/net472/Microsoft.SqlServer.TransactSql.ScriptDom.xml",
+        "lib/net472/cs/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net472/de/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net472/es/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net472/fr/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net472/it/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net472/ja/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net472/ko/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net472/pl/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net472/pt-BR/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net472/ru/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net472/tr/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net472/zh-Hans/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net472/zh-Hant/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net8.0/Microsoft.SqlServer.TransactSql.ScriptDom.dll",
+        "lib/net8.0/Microsoft.SqlServer.TransactSql.ScriptDom.pdb",
+        "lib/net8.0/Microsoft.SqlServer.TransactSql.ScriptDom.xml",
+        "lib/net8.0/cs/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net8.0/de/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net8.0/es/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net8.0/fr/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net8.0/it/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net8.0/ja/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net8.0/ko/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net8.0/pl/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net8.0/pt-BR/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net8.0/ru/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net8.0/tr/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net8.0/zh-Hans/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/net8.0/zh-Hant/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.TransactSql.ScriptDom.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.TransactSql.ScriptDom.pdb",
+        "lib/netstandard2.0/Microsoft.SqlServer.TransactSql.ScriptDom.xml",
+        "lib/netstandard2.0/cs/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.0/de/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.0/es/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.0/fr/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.0/it/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.0/ja/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.0/ko/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.0/pl/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.0/pt-BR/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.0/ru/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.0/tr/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.0/zh-Hans/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.0/zh-Hant/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.1/Microsoft.SqlServer.TransactSql.ScriptDom.dll",
+        "lib/netstandard2.1/Microsoft.SqlServer.TransactSql.ScriptDom.pdb",
+        "lib/netstandard2.1/Microsoft.SqlServer.TransactSql.ScriptDom.xml",
+        "lib/netstandard2.1/cs/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.1/de/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.1/es/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.1/fr/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.1/it/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.1/ja/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.1/ko/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.1/pl/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.1/pt-BR/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.1/ru/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.1/tr/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.1/zh-Hans/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "lib/netstandard2.1/zh-Hant/Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll",
+        "microsoft.sqlserver.transactsql.scriptdom.180.37.3.nupkg.sha512",
+        "microsoft.sqlserver.transactsql.scriptdom.nuspec",
+        "nuspecicon.png"
+      ]
+    },
     "OpenAI/2.12.0": {
       "sha512": "rKyVV0sJPo7pn0Ya5dgRs5ggGbjvnKcYSvYV2jITKgFIfeo2XHjgyi6UqNT/OnF0YBqjsNpPdgM6QjzYczWplg==",
       "type": "package",
@@ -1175,6 +1306,7 @@
       "Microsoft.AspNetCore.OpenApi >= 10.0.10",
       "Microsoft.Data.SqlClient >= 7.0.2",
       "Microsoft.OpenApi >= 2.7.5",
+      "Microsoft.SqlServer.TransactSql.ScriptDom >= 180.37.3",
       "OpenAI >= 2.12.0"
     ]
   },
@@ -1243,6 +1375,10 @@
           "Microsoft.OpenApi": {
             "target": "Package",
             "version": "[2.7.5, )"
+          },
+          "Microsoft.SqlServer.TransactSql.ScriptDom": {
+            "target": "Package",
+            "version": "[180.37.3, )"
           },
           "OpenAI": {
             "target": "Package",

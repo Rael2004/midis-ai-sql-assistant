@@ -10,6 +10,8 @@ namespace MidisSqlAi.Api.Services;
 public sealed class SqlGenerationService : ISqlGenerationService
 {
     private readonly IDatabaseSchemaService _schemaService;
+
+    private readonly ISqlValidationService _validationService;
     private readonly ResponsesClient _responsesClient;
     private readonly string _deploymentName;
     private readonly string _instructions;
@@ -17,9 +19,11 @@ public sealed class SqlGenerationService : ISqlGenerationService
     public SqlGenerationService(
         IConfiguration configuration,
         IWebHostEnvironment environment,
-        IDatabaseSchemaService schemaService)
+        IDatabaseSchemaService schemaService,
+        ISqlValidationService validationService)
     {
         _schemaService = schemaService;
+        _validationService = validationService;
 
         string endpoint =
             configuration["AzureOpenAI:Endpoint"]
@@ -99,23 +103,32 @@ public sealed class SqlGenerationService : ISqlGenerationService
 
         string modelOutput = response.GetOutputText().Trim();
 
-        if (string.Equals(
-                modelOutput,
-                "CANNOT_ANSWER",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            return new GenerateSqlResult(
-                CanAnswer: false,
-                GeneratedSql: null,
-                ModelDeployment: _deploymentName);
-        }
+if (string.Equals(
+        modelOutput,
+        "CANNOT_ANSWER",
+        StringComparison.OrdinalIgnoreCase))
+{
+    return new GenerateSqlResult(
+        CanAnswer: false,
+        GeneratedSql: null,
+        IsValid: false,
+        ValidationErrors: Array.Empty<string>(),
+        ModelDeployment: _deploymentName);
+}
 
-        string normalizedSql = NormalizeModelOutput(modelOutput);
+string normalizedSql = NormalizeModelOutput(modelOutput);
 
-        return new GenerateSqlResult(
-            CanAnswer: true,
-            GeneratedSql: normalizedSql,
-            ModelDeployment: _deploymentName);
+SqlValidationResult validation =
+    await _validationService.ValidateAsync(
+        normalizedSql,
+        cancellationToken);
+
+return new GenerateSqlResult(
+    CanAnswer: true,
+    GeneratedSql: normalizedSql,
+    IsValid: validation.IsValid,
+    ValidationErrors: validation.Errors,
+    ModelDeployment: _deploymentName);
     }
 
     private static string NormalizeModelOutput(string output)

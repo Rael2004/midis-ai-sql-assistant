@@ -16,6 +16,10 @@ builder.Services.AddScoped<
     DatabaseSchemaService>();
 
 builder.Services.AddScoped<
+    ISqlValidationService,
+    SqlValidationService>();
+
+builder.Services.AddScoped<
     ISqlGenerationService,
     SqlGenerationService>();
 

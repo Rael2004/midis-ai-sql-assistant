@@ -25,6 +25,7 @@ C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\ba
 C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\Microsoft.OpenApi.dll
 C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\Microsoft.SqlServer.TransactSql.ScriptDom.dll
 C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\OpenAI.dll
 C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\System.ClientModel.dll
 C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
@@ -44,6 +45,19 @@ C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\ba
 C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
 C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\cs\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\de\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\es\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\fr\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\it\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\ja\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\ko\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\pl\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\pt-BR\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\ru\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\tr\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\zh-Hans\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\zh-Hant\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
 C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
 C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
 C:\Users\raele\OneDrive\Documents\Midis_ICT_Internship\midis-ai-sql-assistant\backend\MidisSqlAi.Api\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll

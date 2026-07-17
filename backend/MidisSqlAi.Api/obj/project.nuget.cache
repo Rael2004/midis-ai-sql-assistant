@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AnvYo8B9r7U=",
+  "dgSpecHash": "H+dMSzw/yMo=",
   "success": true,
   "projectFilePath": "C:\\Users\\raele\\OneDrive\\Documents\\Midis_ICT_Internship\\midis-ai-sql-assistant\\backend\\MidisSqlAi.Api\\MidisSqlAi.Api.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "C:\\Users\\raele\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.16.0\\microsoft.identitymodel.tokens.8.16.0.nupkg.sha512",
     "C:\\Users\\raele\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
     "C:\\Users\\raele\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\raele\\.nuget\\packages\\microsoft.sqlserver.transactsql.scriptdom\\180.37.3\\microsoft.sqlserver.transactsql.scriptdom.180.37.3.nupkg.sha512",
     "C:\\Users\\raele\\.nuget\\packages\\openai\\2.12.0\\openai.2.12.0.nupkg.sha512",
     "C:\\Users\\raele\\.nuget\\packages\\system.clientmodel\\1.14.0\\system.clientmodel.1.14.0.nupkg.sha512",
     "C:\\Users\\raele\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.13\\system.configuration.configurationmanager.9.0.13.nupkg.sha512",
