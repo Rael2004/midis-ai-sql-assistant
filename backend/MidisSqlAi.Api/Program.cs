@@ -2,19 +2,24 @@ using MidisSqlAi.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Register controller support.
+// Add controller-based API support.
 builder.Services.AddControllers();
 
-// Register our database health service with dependency injection.
-// When a controller requests IDatabaseHealthService,
-// ASP.NET Core creates a DatabaseHealthService.
+// Register application services.
+// Each interface is mapped to its concrete implementation.
 builder.Services.AddScoped<
     IDatabaseHealthService,
     DatabaseHealthService>();
+
 builder.Services.AddScoped<
     IDatabaseSchemaService,
     DatabaseSchemaService>();
-// Generate the OpenAPI description during development.
+
+builder.Services.AddScoped<
+    ISqlGenerationService,
+    SqlGenerationService>();
+
+// Generate an OpenAPI document during development.
 builder.Services.AddOpenApi();
 
 var app = builder.Build();

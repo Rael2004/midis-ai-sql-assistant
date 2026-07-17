@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("b0b6969c-800a-4467-9b15-a6d302eeaa57")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MidisSqlAi.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf4d7d176202827e6c2c03f0cdbb80c445f1e4df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59a5b17b2a33691a8cb704abff1b04a9db795b82")]
 [assembly: System.Reflection.AssemblyProductAttribute("MidisSqlAi.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MidisSqlAi.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
