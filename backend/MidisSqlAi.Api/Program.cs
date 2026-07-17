@@ -11,7 +11,9 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<
     IDatabaseHealthService,
     DatabaseHealthService>();
-
+builder.Services.AddScoped<
+    IDatabaseSchemaService,
+    DatabaseSchemaService>();
 // Generate the OpenAPI description during development.
 builder.Services.AddOpenApi();
 
