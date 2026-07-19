@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MidisSqlAi.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e058169ee1815e8795918a2edccfd19a6283335")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ed0f681b4c45d5c3bf264003bc196c694e863f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("MidisSqlAi.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MidisSqlAi.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
