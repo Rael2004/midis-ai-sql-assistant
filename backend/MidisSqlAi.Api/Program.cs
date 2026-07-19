@@ -23,6 +23,10 @@ builder.Services.AddScoped<
     ISqlGenerationService,
     SqlGenerationService>();
 
+builder.Services.AddScoped<
+    IQueryExecutionService,
+    QueryExecutionService>();
+
 // Generate an OpenAPI document during development.
 builder.Services.AddOpenApi();
 
