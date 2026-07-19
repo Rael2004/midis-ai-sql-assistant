@@ -1,9 +1,24 @@
 using MidisSqlAi.Api.Services;
 
+const string FrontendCorsPolicy = "FrontendCors";
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add controller-based API support.
 builder.Services.AddControllers();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(
+        FrontendCorsPolicy,
+        policy =>
+        {
+            policy
+                .WithOrigins("http://localhost:5173")
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        });
+});
 
 // Register application services.
 // Each interface is mapped to its concrete implementation.
@@ -38,6 +53,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(FrontendCorsPolicy);
 
 app.MapControllers();
 
