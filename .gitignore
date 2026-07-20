@@ -1,0 +1,72 @@
+# Environment variables and secrets
+.env
+.env.*
+*.env
+!.env.example
+*.local
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.Local.json
+
+# Visual Studio / .NET
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Node / React
+node_modules/
+dist/
+build/
+.vite/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database local files
+*.db
+*.sqlite
+*.bak
+
+# IDE settings
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Certificates and private keys
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Operating-system files
+Thumbs.db
+.DS_Store
+# .NET generated files
+**/bin/
+**/obj/
+
+# Node and Vite generated files
+**/node_modules/
+**/dist/
+
+# Local environment files and secrets
+**/secrets.json
+**/appsettings.Local.json
+**/appsettings.*.Local.json
+
+
+
+
+
+
+
