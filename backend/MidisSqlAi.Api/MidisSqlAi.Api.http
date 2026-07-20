@@ -1,6 +1,34 @@
-@MidisSqlAi.Api_HostAddress = http://localhost:5111
+@MidisSqlAi.Api_HostAddress = https://localhost:7238
 
-GET {{MidisSqlAi.Api_HostAddress}}/weatherforecast/
+### Database health
+
+GET {{MidisSqlAi.Api_HostAddress}}/api/database/health
 Accept: application/json
 
-###
+### Database schema
+
+GET {{MidisSqlAi.Api_HostAddress}}/api/schema
+Accept: application/json
+
+### Prompt-friendly database schema
+
+GET {{MidisSqlAi.Api_HostAddress}}/api/schema/prompt
+Accept: application/json
+
+### Validate safe SQL
+
+POST {{MidisSqlAi.Api_HostAddress}}/api/sql/validate
+Content-Type: application/json
+
+{
+  "sql": "SELECT TOP 10 TicketId, Title, Status FROM Tickets;"
+}
+
+### Validate dangerous SQL
+
+POST {{MidisSqlAi.Api_HostAddress}}/api/sql/validate
+Content-Type: application/json
+
+{
+  "sql": "DELETE FROM Tickets;"
+}
