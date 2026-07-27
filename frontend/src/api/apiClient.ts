@@ -1,6 +1,6 @@
 const API_BASE_URL =
   import.meta.env.VITE_API_BASE_URL?.replace(/\/$/, "") ??
-  "https://localhost:7238";
+  "";
 
 async function readErrorMessage(
   response: Response,
