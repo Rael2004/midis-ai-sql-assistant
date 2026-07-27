@@ -1,0 +1,27 @@
+# .NET build output
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Git metadata
+.git/
+.gitignore
+
+# Local environment files
+.env
+.env.*
+*.local
+
+# Certificates and private keys
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Operating-system files
+Thumbs.db
+.DS_Store
